@@ -1,6 +1,6 @@
 package main;
 
-public class AppTeste {
+public class AppTest {
 
 		private int counter;
 
