@@ -1,27 +1,28 @@
+//Site: https://www.mkyong.com/java/how-to-use-reflection-to-call-java-method-at-runtime/
 package main;
 
 public class AppTest {
 
-		private int counter;
+	private int counter;
 
-		public void printIt(){
-			System.out.println("printIt() no param");
-		}
-
-		public void printItString(String temp){
-			System.out.println("printIt() with param String : " + temp);
-		}
-
-		public void printItInt(int temp){
-			System.out.println("printIt() with param int : " + temp);
-		}
-
-		public void setCounter(int counter){
-			this.counter = counter;
-			System.out.println("setCounter() set counter to : " + counter);
-		}
-
-		public void printCounter(){
-			System.out.println("printCounter() : " + this.counter);
-		}
+	public void printIt() {
+		System.out.println("printIt() no param");
 	}
+
+	public void printItString(String temp) {
+		System.out.println("printIt() with param String : " + temp);
+	}
+
+	public void printItInt(int temp) {
+		System.out.println("printIt() with param int : " + temp);
+	}
+
+	public void setCounter(int counter) {
+		this.counter = counter;
+		System.out.println("setCounter() set counter to : " + counter);
+	}
+
+	public void printCounter() {
+		System.out.println("printCounter() : " + this.counter);
+	}
+}
